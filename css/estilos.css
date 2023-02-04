@@ -1,0 +1,60 @@
+* {
+    color:darkgoldenrod
+}
+
+/*
+se aplica a los que no tienen color (no especificados). prioridades (cascada)
+*/
+
+p, span {
+    color: rgb(50, 51, 129);
+    font:  red;
+    width: 100%;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+/*
+Comentarios en CSS
+*/
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    border: 14px inset rebeccapurple;
+    /*padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    */
+    padding: 20px 15px 12px;
+    margin: 15px ;
+    font-weight: bold;
+    color:fuchsia
+
+}
+
+section{
+    width: 95%;
+    border: 10px ridge green;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Le di un valor ID a un parrafo y luego le especifique sus propiedades */
+
+#mi_parrafo {
+    color: rgb(23, 153, 228);
+    font-size: 30px;
+    border: 1px solid orangered;
+}
+
+/* Clases (para aplicar selectivamente, al igual que el ID) */
+
+.estaesmiclase {
+    font-weight: bold;
+    color: lightcoral;
+}
+
